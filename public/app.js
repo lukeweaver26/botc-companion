@@ -1,4 +1,5 @@
-const socket = io("https://blood-companion.onrender.com");
+const SOCKET_URL = "https://botc-companion.onrender.com";
+const socket = io(SOCKET_URL);
 
 const msgInput = document.querySelector("#message");
 const nameInput = document.querySelector("#name");
