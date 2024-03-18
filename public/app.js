@@ -1,5 +1,4 @@
 const SOCKET_URL = "https://botc-companion.onrender.com";
-//const SOCKET_URL = "ws://localhost:3500";
 const socket = io(SOCKET_URL);
 
 const msgInput = document.querySelector("#message");
