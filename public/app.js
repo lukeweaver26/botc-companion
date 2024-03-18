@@ -1,4 +1,4 @@
-const socket = io("https://io-project.onrender.com");
+const socket = io("https://blood-companion.onrender.com");
 
 const msgInput = document.querySelector("#message");
 const nameInput = document.querySelector("#name");
